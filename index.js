@@ -17,7 +17,7 @@ const handler = async (req, res) => {
   
   
   // Add your code here
-  res.write(JSON.stringify({success: true, msg: `Multipication of two numbers`, mul }))
+  res.write(JSON.stringify({success: true, msg: `Multipication of 2 numbers`, mul }))
   res.end()
   
 }
