@@ -1,0 +1,13 @@
+{
+  "name": "multiply",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/grgshiji/multiply",
+    "ssh": "git@github.com:grgshiji/multiply.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
